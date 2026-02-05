@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>🎯 PLUS BINGO</h2>
+<input id="room" placeholder="Room ID"/>
+<button onclick="join()">Join Room</button>
+<h3 id="players">Players: 0</h3>
+<h1 id="number">-</h1>
+<button onclick="play()">Play Number</button>
+<h3>🏆 Leaderboard</h3>
+<ul id="board"></ul>
+<script src="app.js"></script>
+</body>
+</html>
